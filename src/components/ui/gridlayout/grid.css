@@ -1,0 +1,67 @@
+
+.most-bought {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-template-rows: repeat(5, 1fr) !important;
+    gap: 8px;
+    overflow: hidden;
+}
+    
+/* .most-bought:hover{
+    cursor: pointer;
+} */
+
+.title {
+    grid-column: span 3 / span 3;
+    transform: scale(.8)
+}
+
+.first-most-bought {
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    transform: scale(.8)
+}
+
+.second-most-bought {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    cursor: pointer;
+}
+
+.third-most-bought {
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    transform: scale(.8)
+}
+
+.fourth-most-bought {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    transform: scale(.8)
+}
+
+.fifth-most-bought {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-row-start: 4;
+    transform: scale(.8)
+}
+.title:hover,
+.fourth-most-bought:hover {
+    cursor: pointer;
+    transform: scale(.8);
+    transition: .6s ease-in-out;
+}
+
+.first-most-bought:hover, 
+.third-most-bought:hover, 
+.fifth-most-bought:hover{
+    transform: scale(1);
+    transition: .6s ease-in-out;
+    cursor: pointer;
+}

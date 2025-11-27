@@ -1,0 +1,56 @@
+.pic {
+    flex-shrink: 0 !important;
+    cursor: pointer;
+}
+
+.secondary-pics{
+    width: 90% !important;
+    height: 33% !important;
+    margin: 3px 3px;
+}
+
+.container{
+    position: relative;
+}
+
+.card-container{
+    z-index: 0;
+}
+
+.arrow-left img, .arrow-right img{
+    width: 1.5em !important;
+    height: 1.5em !important;
+    border: 1px solid #858484;
+    border-radius: 50%;
+}
+
+.arrow-left img{
+    position: absolute;
+    left: -8px;
+    top: 48%;
+    z-index: 2;
+}
+
+.arrow-right img{
+    position: absolute;
+    right: -8px;
+    top: 48%;
+    z-index: 2;
+}
+
+.arrow-left:hover, .arrow-right img:hover {
+    cursor: pointer !important;
+}
+
+.card {
+    overflow: hidden;
+}
+.card img{
+    transform: scale(1);
+    /* border-right: 1px solid #ddd; */
+}
+
+.card img:hover{
+    transform: scale(1.04);
+    transition: .6s ease-in-out;
+}
