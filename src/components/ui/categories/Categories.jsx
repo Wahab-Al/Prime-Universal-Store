@@ -5,7 +5,7 @@ import Watches from '../../../assets/img/Categories/watches.jpg'
 import Bags from '../../../assets/img/Categories/bags.jpg'
 import Accessories from '../../../assets/img/Categories/accessories.jpg'
 
-import './categroies.css'
+import './categories.css'
 
 export default function Categories () {
     return (
