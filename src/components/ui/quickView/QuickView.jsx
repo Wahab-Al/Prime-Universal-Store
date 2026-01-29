@@ -36,10 +36,12 @@ export default function QuickView() {
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <h5 className="card-title text-uppercase">Elegant Evening Gown</h5>
-                  <a href="#" className="cart-btn btn btn-success mb-3 z-2">Cart</a>
+                  {/* <a href="#" className="cart-btn btn btn-success mb-3 z-2">Cart</a> */}
                 </div>
                 <p className="card-text">Experience pure luxury with our silk-finish night collection.</p>
               </div>
+              <button className='cart-btn-out'>Cart</button>
+              <button className='view-btn-out'>view</button>
             </div>
 
             {/*  */}
@@ -48,10 +50,12 @@ export default function QuickView() {
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <h5 className="card-title text-uppercase">Vintage Denim Jacket</h5>
-                  <a href="#" className="cart-btn btn btn-danger mb-3 z-2">Cart</a>
+                  {/* <a href="#" className="cart-btn btn btn-danger mb-3 z-2">Cart</a> */}
                 </div>
                 <p className="card-text">A timeless classic designed for the modern street-style enthusiast.</p>
               </div>
+              <button className='cart-btn-out'>Cart</button>
+              <button className='view-btn-out'>view</button>
             </div>
 
             {/*  */}
@@ -59,11 +63,13 @@ export default function QuickView() {
               <img src={MenShoes} alt="" className="card-img-top" />
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
-                  <h5 className="card-title text-uppercase">Handcrafted Leather Loafers</h5>
-                  <a href="#" className="cart-btn btn btn-primary mb-3 z-2">Cart</a>
+                  <h5 className="card-title text-uppercase">Leather Loafers</h5>
+                  {/* <a href="#" className="cart-btn btn btn-primary mb-3 z-2">Cart</a> */}
                 </div>
                 <p className="card-text">Premium Italian leather meets ultimate everyday comfort.</p>
               </div>
+              <button className='cart-btn-out'>Cart</button>
+              <button className='view-btn-out'>view</button>
             </div>
 
             {/*  */}
@@ -72,10 +78,12 @@ export default function QuickView() {
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <h5 className="card-title text-uppercase">Floral Summer Mini</h5>
-                  <a href="#" className="cart-btn btn btn-success mb-3 z-2">Cart</a>
+                  {/* <a href="#" className="cart-btn btn btn-success mb-3 z-2">Cart</a> */}
                 </div>
                 <p className="card-text">Light, breathable, and perfect for your next sunny getaway.</p>
               </div>
+              <button className='cart-btn-out'>Cart</button>
+              <button className='view-btn-out'>view</button>
             </div>
 
             {/*  */}
@@ -84,10 +92,12 @@ export default function QuickView() {
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <h5 className="card-title text-uppercase">Minimalist Cotton Tee</h5>
-                  <a href="#" className="cart-btn btn btn-danger mb-3 z-2">Cart</a>
+                  {/* <a href="#" className="cart-btn btn btn-danger mb-3 z-2">Cart</a> */}
                 </div>
                 <p className="card-text">The foundation of every wardrobe. 100% organic premium cotton.</p>
               </div>
+              <button className='cart-btn-out'>Cart</button>
+              <button className='view-btn-out'>view</button>
             </div>
 
             {/*  */}
@@ -96,10 +106,12 @@ export default function QuickView() {
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <h5 className="card-title text-uppercase">Urban Canvas Sneakers</h5>
-                  <a href="#" className="cart-btn btn btn-primary mb-3 z-2">Cart</a>
+                  {/* <a href="#" className="cart-btn btn btn-primary mb-3 z-2">Cart</a> */}
                 </div>
                 <p className="card-text">Versatile footwear designed to keep up with your city lifestyle.</p>
               </div>
+              <button className='cart-btn-out'>Cart</button>
+              <button className='view-btn-out'>view</button>
             </div>
 
             {/*  */}
@@ -108,10 +120,12 @@ export default function QuickView() {
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <h5 className="card-title text-uppercase">Boho-Chic Knitwear</h5>
-                  <a href="#" className="cart-btn btn btn-outline-dark text-danger disabled mb-3 z-2">Sold</a>
+                  {/* <a href="#" className="cart-btn btn btn-outline-dark text-danger disabled mb-3 z-2">Sold</a> */}
                 </div>
                 <p className="card-text">Cozy up in style with our hand-knitted seasonal textures.</p>
               </div>
+              <button className='cart-btn-out'>Cart</button>
+              <button className='view-btn-out'>view</button>
             </div>
 
             {/*   */}
@@ -120,10 +134,12 @@ export default function QuickView() {
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <h5 className="card-title text-uppercase">Luxury Jewelry Box</h5>
-                  <button className="cart-btn btn btn-outline-dark text-danger disabled mb-3 z-2" disabled>Soon</button>
+                  {/* <button className="cart-btn btn btn-outline-dark text-danger disabled mb-3 z-2" disabled>Soon</button> */}
                 </div>
                 <p className="card-text">Organize your elegance with our premium velvet-lined cases.</p>
               </div>
+              <button className='cart-btn-out'>Cart</button>
+              <button className='view-btn-out'>view</button>
             </div>
 
           </section>
